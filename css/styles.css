@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+body {
+    background-image: url(/proyecto/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d0f1ff;
+}
+
+header {
+    font-family: 'Jaro', sans-serif;
+    font-size: 70pt;
+    margin-top: -180px;
+    margin-bottom: -200px;
+    text-shadow:
+      10px 10px 1px #000,
+      -5px 5px 1px #000,
+      -5px -5px 1px #000,
+      5px -5px 1px #000;
+    color: rgb(255, 209, 71);
+    text-align: center;
+    padding: 1em;
+}
+
+header h2{
+    font-family: 'Jaro', sans-serif;
+    font-size: 70pt;
+    margin-top: -250px;
+    margin-bottom: 50px;
+    text-shadow:
+      10px 10px 0 #000,
+      -5px 5px 0 #000,
+      -5px -5px 0 #000,
+      5px -5px 0 #000;
+    color: rgb(255, 190, 150);
+    text-align: center;
+    padding: 1em;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.galeria h2 {
+    margin-bottom: 50px;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.galeria div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.galeria .trabajos h4 {
+    font-weight: 300;
+}
+
+.galeria .trabajos .gradiente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.galeria .trabajos .gradiente:hover {
+    transform: scale(1.1);
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #12fc2d, #414141); border: 3px solid #000;
+    border-radius: 100px;
+    padding: 2em;
+    transition: transform 0.3s ease;
+}
+
+.video h4 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.video video {
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.video:hover {
+    transform: scale(1.05);
+}
+
+.behance {
+    text-align: center;
+    padding: 2em;
+}
+
+.behance .boton {
+    background-color: #6a8c96;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.behance .boton:hover {
+    background-color: #051ccb;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: rgb(60, 60, 60);
+    text-align: center;
+    padding: 0.5em;
+}
+
